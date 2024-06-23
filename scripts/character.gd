@@ -190,13 +190,12 @@ func _move():
 	var val : float = 0
 
 	if _axis == MoveAxis.HORIZONTAL:
-		val = _destination - global_position / get_parent().main_screen_rect.size.x
+		val = _destination - global_position.x / get_parent().main_screen_rect.size.x
 		if val > 0:
 			_sprite.flip_h = true
 			# _sprite.play("running")
 		else:
-			pass
-			# _sprite.flip_h = false
+			_sprite.flip_h = false
 			# _sprite.play("running")
 
 	_moving = true
