@@ -187,17 +187,32 @@ func _move():
 	_axis = randi_range(0, 1)
 	_destination = randf_range(0.0, 1.0)
 
+	var val : float = 0
+
+	if _axis == MoveAxis.HORIZONTAL:
+		val = _destination - global_position / get_parent().main_screen_rect.size.x
+		if val > 0:
+			pass
+			# _sprite.flip_h = true
+			# _sprite.play("running")
+		else:
+			pass
+			# _sprite.flip_h = false
+			# _sprite.play("running")
+
 	_moving = true
 
 
 func _jump():
 	#_sprite.play("jump")
+	# TODO: resize the game window due to height change
 	pass
 
 
 func _gift():
 	#_sprite.play("give_gift")
 	pass
+
 
 # The function to be called to determine wait time of the next action
 func _timer_until_next_move():
