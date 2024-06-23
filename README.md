@@ -1,5 +1,5 @@
 # Desktop Laika
-##About
+## About
 A fan-made application featuring the Laika creatures from mobile JRPG _Another Eden_. This really has no purpose except to spawn the cute Laikas to decorate your desktop screen.
 Made using Godot Engine 4.2.2.
 
