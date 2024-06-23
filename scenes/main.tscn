@@ -9,7 +9,7 @@ script = ExtResource("1_v1xs5")
 camera = NodePath("Character/Sprite/Camera2D")
 
 [node name="Character" type="Node2D" parent="."]
-scale = Vector2(0.4, 0.4)
+scale = Vector2(0.8, 0.8)
 script = ExtResource("2_8kswy")
 move_speed = 50.0
 

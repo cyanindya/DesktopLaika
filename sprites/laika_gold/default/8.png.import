@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byrognsxha44o"
-path="res://.godot/imported/8.png-ee9f282e8e4cb0b9560a4c13d6bffd04.ctex"
+path="res://.godot/imported/8.png-5d8181e1c942fd29bca02771301d393a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/laika_gold/8.png"
-dest_files=["res://.godot/imported/8.png-ee9f282e8e4cb0b9560a4c13d6bffd04.ctex"]
+source_file="res://sprites/laika_gold/default/8.png"
+dest_files=["res://.godot/imported/8.png-5d8181e1c942fd29bca02771301d393a.ctex"]
 
 [params]
 

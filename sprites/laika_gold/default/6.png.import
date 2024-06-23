@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dbfi0u8cmv207"
-path="res://.godot/imported/10.png-44399774a725b212548fea81fe7088fa.ctex"
+uid="uid://dfg8f50ofqcke"
+path="res://.godot/imported/6.png-c4ba648654fd7961697b0119e2622429.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/laika_gold/10.png"
-dest_files=["res://.godot/imported/10.png-44399774a725b212548fea81fe7088fa.ctex"]
+source_file="res://sprites/laika_gold/default/6.png"
+dest_files=["res://.godot/imported/6.png-c4ba648654fd7961697b0119e2622429.ctex"]
 
 [params]
 

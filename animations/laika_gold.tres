@@ -1,64 +1,64 @@
 [gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://qmalhel875sr"]
 
-[ext_resource type="Texture2D" uid="uid://sou3mk30hkrd" path="res://sprites/laika_gold/1.png" id="1_txn70"]
-[ext_resource type="Texture2D" uid="uid://bm0sf2wbm5mx6" path="res://sprites/laika_gold/2.png" id="2_ym7ab"]
-[ext_resource type="Texture2D" uid="uid://cl1dq5o0jwqot" path="res://sprites/laika_gold/3.png" id="3_7cfms"]
-[ext_resource type="Texture2D" uid="uid://dhh2ixnh8e28y" path="res://sprites/laika_gold/4.png" id="4_qco3i"]
-[ext_resource type="Texture2D" uid="uid://bipmhcn80nrlb" path="res://sprites/laika_gold/5.png" id="5_wvr6b"]
-[ext_resource type="Texture2D" uid="uid://dfg8f50ofqcke" path="res://sprites/laika_gold/6.png" id="6_24ug2"]
-[ext_resource type="Texture2D" uid="uid://cqcanqeo5ue4g" path="res://sprites/laika_gold/7.png" id="7_vyugx"]
-[ext_resource type="Texture2D" uid="uid://byrognsxha44o" path="res://sprites/laika_gold/8.png" id="8_s8k4l"]
-[ext_resource type="Texture2D" uid="uid://bivw8msyg7k5g" path="res://sprites/laika_gold/9.png" id="9_0fp0s"]
-[ext_resource type="Texture2D" uid="uid://dbfi0u8cmv207" path="res://sprites/laika_gold/10.png" id="10_jom7e"]
-[ext_resource type="Texture2D" uid="uid://bh70mhirvago1" path="res://sprites/laika_gold/11.png" id="11_437q2"]
+[ext_resource type="Texture2D" uid="uid://sou3mk30hkrd" path="res://sprites/laika_gold/default/1.png" id="1_crmvw"]
+[ext_resource type="Texture2D" uid="uid://bm0sf2wbm5mx6" path="res://sprites/laika_gold/default/2.png" id="2_rxwb1"]
+[ext_resource type="Texture2D" uid="uid://cl1dq5o0jwqot" path="res://sprites/laika_gold/default/3.png" id="3_bb6u2"]
+[ext_resource type="Texture2D" uid="uid://dhh2ixnh8e28y" path="res://sprites/laika_gold/default/4.png" id="4_ghou4"]
+[ext_resource type="Texture2D" uid="uid://bipmhcn80nrlb" path="res://sprites/laika_gold/default/5.png" id="5_o08wf"]
+[ext_resource type="Texture2D" uid="uid://dfg8f50ofqcke" path="res://sprites/laika_gold/default/6.png" id="6_32d4i"]
+[ext_resource type="Texture2D" uid="uid://cqcanqeo5ue4g" path="res://sprites/laika_gold/default/7.png" id="7_w5g5t"]
+[ext_resource type="Texture2D" uid="uid://byrognsxha44o" path="res://sprites/laika_gold/default/8.png" id="8_5enso"]
+[ext_resource type="Texture2D" uid="uid://bivw8msyg7k5g" path="res://sprites/laika_gold/default/9.png" id="9_m4031"]
+[ext_resource type="Texture2D" uid="uid://dbfi0u8cmv207" path="res://sprites/laika_gold/default/10.png" id="10_t8sml"]
+[ext_resource type="Texture2D" uid="uid://bh70mhirvago1" path="res://sprites/laika_gold/default/11.png" id="11_3frof"]
 
 [resource]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_txn70")
+"texture": ExtResource("1_crmvw")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_ym7ab")
+"texture": ExtResource("2_rxwb1")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_7cfms")
+"texture": ExtResource("3_bb6u2")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_qco3i")
+"texture": ExtResource("4_ghou4")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_wvr6b")
+"texture": ExtResource("5_o08wf")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_24ug2")
+"texture": ExtResource("6_32d4i")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_vyugx")
+"texture": ExtResource("7_w5g5t")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_s8k4l")
+"texture": ExtResource("8_5enso")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_7cfms")
+"texture": ExtResource("3_bb6u2")
 }, {
 "duration": 1.0,
-"texture": ExtResource("1_txn70")
+"texture": ExtResource("1_crmvw")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_0fp0s")
+"texture": ExtResource("9_m4031")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_jom7e")
+"texture": ExtResource("10_t8sml")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_437q2")
+"texture": ExtResource("11_3frof")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_jom7e")
+"texture": ExtResource("10_t8sml")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_0fp0s")
+"texture": ExtResource("9_m4031")
 }],
 "loop": true,
 "name": &"default",
