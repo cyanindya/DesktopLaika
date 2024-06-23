@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bv2l2wxsmadh2"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_v1xs5"]
+[ext_resource type="Script" path="res://scripts/character.gd" id="2_8kswy"]
+[ext_resource type="SpriteFrames" uid="uid://qmalhel875sr" path="res://animations/laika_gold.tres" id="3_ssc6s"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_v1xs5")
+camera = NodePath("Character/Sprite/Camera2D")
+
+[node name="Character" type="Node2D" parent="."]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("2_8kswy")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="Character"]
+sprite_frames = ExtResource("3_ssc6s")
+centered = false
+
+[node name="Camera2D" type="Camera2D" parent="Character/Sprite"]
+anchor_mode = 0
+position_smoothing_enabled = true
